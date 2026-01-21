@@ -23,6 +23,19 @@ This project aims to analyze and predict credit card loan defaults using histori
 
 ## Project Structure
 
+bank-loan-default-analysis/
+│
+├── dashboard/ # Visualization dashboards (to be developed)
+├── Data/
+│ ├── raw/ # Raw CSV dataset
+│ └── processed/ # Processed/cleaned data (empty for now)
+├── notebooks/
+│ ├── 01_data_exploration.ipynb
+│ ├── 02_feature_engineering.ipynb
+│ └── 03_modeling_evaluation.ipynb
+├── report/ # Project reports and outputs (empty)
+├── .gitignore
+└── README.md
 ---
 
 ## Methodology
